@@ -1,2 +1,7 @@
-['I58', 'ANQ', 'OEB']
-[[50.0, -150.0],[50.0,-80.0],[10.0,-80.0],[10.0,-150.0]]
+['KMCO', 'KDEN', 'KJFK', 'KRHV', 'PACH']
+[[35.0,-123.0],[25.0,-123.0],[25.0,-75.0],[35.0,-75.0],[50.0,-100.0]]
+
+example input with airports for (in order):
+florida, colorado, new york, california, and alaska
+
+example input with a polygon around the southern united states and a portion going into colorado

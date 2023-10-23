@@ -55,11 +55,13 @@ def contains(locations: List[List[float]], polygon: List[List[float]]) -> List[b
   polygon_gs = polygon_gs.convex_hull
   
   ### plotting for debugging/understanding ###
-  # polygon_gs.plot(ax=plt.gca(), color='red', markersize=10)
+  # world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
+  # ax = world.cx[-100:-60, 24:50].plot(figsize=(10, 10), color='lightgray', edgecolor='k')
+  # polygon_gs.plot(ax=ax, color='red', markersize=10, alpha=0.5)
   # for location in locations:
-  #   plt.scatter(location[1], location[0], color='blue', marker='o', s=50) 
+  #     plt.scatter(location[1], location[0], color='blue', marker='o', s=50)
   # plt.show()
-  
+
   # check if each airport is within the polygon  
   findings = []
   for location in locations:

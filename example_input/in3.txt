@@ -1,0 +1,7 @@
+['KMCO', 'KDEN', 'KJFK', 'KRHV', 'PACH']
+[[37.3328611,-123.0],[25.0,-123.0],[37.3328611,-75.0]]
+
+example input with airports for (in order):
+florida, colorado, new york, california, and alaska
+
+example input with a triangle around the southern united states and a portion going directly through an airport in california
